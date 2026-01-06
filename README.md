@@ -8,7 +8,7 @@ which is supposed to result in a tool call to increase the temperature. When run
 being successfully made, but the subtask fails in **AIAgentFunctionalContext.sendToolResult()** after appending
 the default finishTool results and calling requestLLM().
 
-The result error is:
+The resulting error is:
 
 ```
 Exception in thread "main" ai.koog.prompt.executor.clients.LLMClientException: Error from client: OpenAILLMClient
